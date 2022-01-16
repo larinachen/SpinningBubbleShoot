@@ -1,0 +1,30 @@
+Performing C++ SOURCE FILE Test CXXFLAG_WCAST_ALIGN_STRICT_OKAY failed with the following output:
+Change Dir: /Users/larinachen/Desktop/final_project/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_cd486/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_cd486.dir/build.make CMakeFiles/cmTC_cd486.dir/build
+Building CXX object CMakeFiles/cmTC_cd486.dir/src.cxx.o
+/Library/Developer/CommandLineTools/usr/bin/c++ -DCXXFLAG_WCAST_ALIGN_STRICT_OKAY  -march=core2 -mtune=haswell -mssse3 -ftree-vectorize -fPIC -fPIE -fstack-protector-strong -O2 -pipe -stdlib=libc++ -fvisibility-inlines-hidden -std=c++14 -fmessage-length=0 -isystem /Users/larinachen/opt/anaconda3/include  -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15   -Wcast-align=strict -MD -MT CMakeFiles/cmTC_cd486.dir/src.cxx.o -MF CMakeFiles/cmTC_cd486.dir/src.cxx.o.d -o CMakeFiles/cmTC_cd486.dir/src.cxx.o -c /Users/larinachen/Desktop/final_project/cmake-build-debug/CMakeFiles/CMakeTmp/src.cxx
+warning: unknown warning option '-Wcast-align=strict'; did you mean '-Wcast-align'? [-Wunknown-warning-option]
+1 warning generated.
+Linking CXX executable cmTC_cd486
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cd486.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/c++ -march=core2 -mtune=haswell -mssse3 -ftree-vectorize -fPIC -fPIE -fstack-protector-strong -O2 -pipe -stdlib=libc++ -fvisibility-inlines-hidden -std=c++14 -fmessage-length=0 -isystem /Users/larinachen/opt/anaconda3/include  -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15 -Wl,-search_paths_first -Wl,-headerpad_max_install_names -Wl,-pie -Wl,-headerpad_max_install_names -Wl,-dead_strip_dylibs -Wl,-rpath,/Users/larinachen/opt/anaconda3/lib -L/Users/larinachen/opt/anaconda3/lib  CMakeFiles/cmTC_cd486.dir/src.cxx.o -o cmTC_cd486 
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test CXXFLAG_WERROR_BOOL_COMPARE_OKAY failed with the following output:
+Change Dir: /Users/larinachen/Desktop/final_project/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_1d9e7/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_1d9e7.dir/build.make CMakeFiles/cmTC_1d9e7.dir/build
+Building CXX object CMakeFiles/cmTC_1d9e7.dir/src.cxx.o
+/Library/Developer/CommandLineTools/usr/bin/c++ -DCXXFLAG_WERROR_BOOL_COMPARE_OKAY  -march=core2 -mtune=haswell -mssse3 -ftree-vectorize -fPIC -fPIE -fstack-protector-strong -O2 -pipe -stdlib=libc++ -fvisibility-inlines-hidden -std=c++14 -fmessage-length=0 -isystem /Users/larinachen/opt/anaconda3/include  -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15   -Werror=bool-compare -MD -MT CMakeFiles/cmTC_1d9e7.dir/src.cxx.o -MF CMakeFiles/cmTC_1d9e7.dir/src.cxx.o.d -o CMakeFiles/cmTC_1d9e7.dir/src.cxx.o -c /Users/larinachen/Desktop/final_project/cmake-build-debug/CMakeFiles/CMakeTmp/src.cxx
+warning: unknown warning option '-Werror=bool-compare' [-Wunknown-warning-option]
+1 warning generated.
+Linking CXX executable cmTC_1d9e7
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1d9e7.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/c++ -march=core2 -mtune=haswell -mssse3 -ftree-vectorize -fPIC -fPIE -fstack-protector-strong -O2 -pipe -stdlib=libc++ -fvisibility-inlines-hidden -std=c++14 -fmessage-length=0 -isystem /Users/larinachen/opt/anaconda3/include  -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15 -Wl,-search_paths_first -Wl,-headerpad_max_install_names -Wl,-pie -Wl,-headerpad_max_install_names -Wl,-dead_strip_dylibs -Wl,-rpath,/Users/larinachen/opt/anaconda3/lib -L/Users/larinachen/opt/anaconda3/lib  CMakeFiles/cmTC_1d9e7.dir/src.cxx.o -o cmTC_1d9e7 
+
+
+Source file was:
+int main() { return 0; }
